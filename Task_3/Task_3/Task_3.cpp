@@ -48,10 +48,10 @@ int main(int argv, char** argc) {
 
 	Address UserFirst{ "Россия", "Москва", "Авангардная", 11, 5, 14, 125493 };
 	Address UserSecond{ "Россия", "Москва", "Шлюзовая", 1, 7, 144, 125497 };
-	Address UserThree{ "Россия", "Санкт-Петербург", "Невская", 15, 9, 13, 123493 };
+	Address UserThird{ "Россия", "Санкт-Петербург", "Невская", 15, 9, 13, 123493 };
 	system("cls");
 	print(UserFirst);
 	print(UserSecond);
-	print(UserThree);
+	print(UserThird);
 	return 0;
 }
